@@ -4,6 +4,16 @@
     margin-bottom: 70px;
 }
 
+#our-members
+
+.member {
+    margin-bottom: 50px;
+}
+
+.member img {
+    width: 100%;
+}
+
 .member-name {
     font-weight: 500;
     font-size: 125%;
