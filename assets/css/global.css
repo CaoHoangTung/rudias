@@ -1,0 +1,108 @@
+body {
+    font-family: Saira;
+    scroll-behavior: smooth
+}
+
+.rnav {
+    background-color: white !important;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.rnav + #page-content {
+    padding-top: 10vh;
+}
+
+.rbrand-name {
+    vertical-align: bottom;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.rnav-item {
+    margin-left: 6vw;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rnav-item.active {
+    border-bottom: 2px solid #FF5024;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.section-title {
+    color: #333;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    text-align: center;
+}
+
+.section-action {
+    margin: 0 auto;
+}
+
+.carousel-indicators > li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #FF5024;
+}
+
+
+#contact {
+    padding-top: 70px;
+    background-color: #2F3F59;
+    color: white;
+}
+
+.contact-section-title {
+    border-bottom: 5px solid #FF5024;
+    width: 100px;
+}
+
+.contact-section-title > h4 {
+    width: 150px;
+}
+
+#contact-us,#message-us {
+    margin-bottom: 50px;
+}
+
+.inp {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+textarea.inp {
+    height: 90px;
+}
+
+input.inp:focus, textarea.inp:focus {
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+#message-us-submit-btn {
+    margin: 20px 0 0 0;
+    width: 50%; 
+    float: left;
+    text-align: left;
+}

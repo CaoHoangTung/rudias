@@ -1,0 +1,91 @@
+#header {
+    width: 100%;
+    position: relative;
+    /* padding-top: 12vh; */
+}
+
+#header-img {
+    width: 100%;
+}
+
+#header-text {
+    text-align: center;
+    color: #333333;
+    position: absolute;
+    right: 20vw;
+    top: 10vw;
+    font-size: 3vw;
+}
+
+.products {
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 60px;
+}
+
+.product-title {
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 23px;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+#work-with-us {
+    background-color: #117a8b;
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+
+#work-with-us .section-title{
+    color: white !important
+}
+
+#work-with-us button {
+    background-color: #FF5024;
+    padding: 10px 100px;
+    color: white;
+    border-radius: 1%;
+    border: 1px solid #2F3F59
+}
+
+#testimonial {
+    text-align: center;
+}
+
+.testimonial-item {
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 100%;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 40%;
+}
+
+.testimonial-text {
+    border: 0px solid;
+    border-top: none;
+    box-shadow: 0px 5px 5px #888888;
+    font-size: 110%;
+    padding: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+.testimonial-role {
+    color: #FF5024;
+}

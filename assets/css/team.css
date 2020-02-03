@@ -1,0 +1,15 @@
+
+#our-members {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 125%;
+}
+
+.member-role {
+    font-size: 105%;
+    color: #FF5024;
+}
