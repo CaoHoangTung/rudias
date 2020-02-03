@@ -222,7 +222,7 @@
                 <span class="rbrand-name">Rudias</span>
             </a>
             <p class="navbar-brand navbar-nav ml-auto">
-                <span class="rbrand-name ml-auto">Copyright &copy Rudias 2020</span>
+                Copyright &copy Rudias 2020
             </p>
         </nav>
     </footer>
