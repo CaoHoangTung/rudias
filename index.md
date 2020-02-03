@@ -217,17 +217,13 @@
 
     <footer>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a href="home.html" class="navbar-brand"><img src="assets/img/icon.png"><span
-                    class="rbrand-name">Rudias</span></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ml-auto smooth-scroll">
-                    <p class="nav-item">Copyright &copy Rudias 2020</p>
-                </div>
-            </div>
+            <a href="home.html" class="navbar-brand">
+                <img src="assets/img/icon.png">
+                <span class="rbrand-name">Rudias</span>
+            </a>
+            <p class="navbar-brand navbar-nav ml-auto">
+                <span class="rbrand-name ml-auto">Copyright &copy Rudias 2020</span>
+            </p>
         </nav>
     </footer>
 
