@@ -44,7 +44,7 @@ $('#subscribe-form').submit(function(e){
     const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
     $.post(submitToUrl, submitData, function(data,status){
         if (status && status == "success"){
-            $("#message-us-submit-btn").remove();
+            $("#subscribe-form-submit-btn").remove();
             $("#subscribe-form-msg").html("Thanks for reaching out!");
         } else {
             $("#subscribe-form-msg").html("There has been an error");
