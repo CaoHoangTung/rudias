@@ -1,5 +1,5 @@
 let menuItems = ["home","services","team","contact"];
-
+alert(1)
 for (let menuItem of menuItems){
     $(window).scroll(function() {
         if ($('#'+menuItem).length){
