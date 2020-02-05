@@ -1,5 +1,5 @@
 let menuItems = ["home","services","team","contact"];
-alert(1)
+
 for (let menuItem of menuItems){
     $(window).scroll(function() {
         if ($('#'+menuItem).length){
@@ -38,7 +38,7 @@ $('#subscribe-form').submit(function(e){
         email: email,
         message: message
     };
-    const submitToUrl = "http://localhost:3000"
+    const submitToUrl = "http://localhost:3000/api/subscribe"
     // const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
     $.post(submitToUrl, submitData, function(){
         alert("OK");
