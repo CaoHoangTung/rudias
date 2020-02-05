@@ -27,7 +27,7 @@ $('.rnav-item').click(function(e){
     
 });
 
-$('form#subscribe-form').submit(function(e){
+$('#subscribe-form').submit(function(e){
     e.preventDefault();
     let formValues = $("form#subscribe-form").serializeArray();
     let name = formValues[0].value,
