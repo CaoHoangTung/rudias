@@ -38,8 +38,7 @@ $('#subscribe-form').submit(function(e){
         email: email,
         message: message
     };
-    const submitToUrl = "http://localhost:3000/api/subscribe"
-    // const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
+    const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
     $.post(submitToUrl, submitData, function(){
         alert("OK");
     })
