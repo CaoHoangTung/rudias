@@ -27,3 +27,20 @@ $('.rnav-item').click(function(e){
     
 });
 
+$('form#subscribe-form').submit(function(e){
+    e.preventDefault();
+    let formValues = $("form#subscribe-form").serializeArray();
+    let name = formValues[0].value,
+        email = formValues[1].value,
+        message = formValues[2].value;
+    let submitData = {
+        name: name,
+        email: email,
+        message: message
+    };
+    const submitToUrl = "http://localhost:3000"
+    // const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
+    $.post(submitToUrl, submitData, function(){
+        alert("OK");
+    })
+});
