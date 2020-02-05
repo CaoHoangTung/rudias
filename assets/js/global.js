@@ -28,6 +28,8 @@ $('.rnav-item').click(function(e){
 });
 
 $('#subscribe-form').submit(function(e){
+    let subscribeForm = this;
+
     e.preventDefault();
     let formValues = $("form#subscribe-form").serializeArray();
     let name = formValues[0].value,
@@ -38,8 +40,14 @@ $('#subscribe-form').submit(function(e){
         email: email,
         message: message
     };
+
     const submitToUrl = "https://rudias-email-subscriber.herokuapp.com/api/subscribe";
-    $.post(submitToUrl, submitData, function(){
-        alert("OK");
+    $.post(submitToUrl, submitData, function(data,status){
+        if (status && status == "success"){
+            $("#message-us-submit-btn").remove();
+            $("#subscribe-form-msg").html("Thanks for reaching out!");
+        } else {
+            $("#subscribe-form-msg").html("There has been an error");
+        }
     })
 });
