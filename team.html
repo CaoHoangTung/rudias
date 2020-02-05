@@ -24,7 +24,7 @@
     <nav class="rnav navbar navbar-expand-md navbar-light bg-light">
         <a href="home.html" class="navbar-brand"><img alt="icon" src="assets/img/icon.png"><span
                 class="rbrand-name">Rudias</span></a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button id="rnav-toggler" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -127,10 +127,13 @@
                             <h4> Message us</h4>
                         </div>
                         <br><br>
-                        <form>
+                        <form id="subscribe-form">
                             <div class="form-group">
+                                <label class="subscribe-form-label">Name</label>
                                 <input type="text" class="form-control inp" placeholder="Your name*">
+                                <label class="subscribe-form-label">Email</label>
                                 <input type="email" class="form-control inp" placeholder="Your email*">
+                                <label class="subscribe-form-label">Message</label>
                                 <textarea class="form-control inp" placeholder="Your message here"></textarea>
                                 <input id="message-us-submit-btn" class="form-control inp" type="submit" value="Send">
                             </div>

@@ -100,7 +100,11 @@ input.inp:focus, textarea.inp:focus {
     color: white;
 }
 
-#message-us-submit-btn {
+.subscribe-form-label {
+    display: none;
+}
+
+#subscribe-form-submit-btn {
     margin: 20px 0 0 0;
     width: 50%; 
     float: left;
