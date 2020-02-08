@@ -81,6 +81,7 @@ body {
 
 #contact-us,#message-us {
     margin-bottom: 50px;
+    zoom: 1.2;
 }
 
 .inp {
