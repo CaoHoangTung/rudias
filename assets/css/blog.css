@@ -15,7 +15,7 @@
 }
 
 .blog-post-first-title-container {
-    padding: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 15px;
     background-color: #F98383;
     color: white;
 }
@@ -166,7 +166,7 @@
     }
 
     .blog-title {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 }
 
